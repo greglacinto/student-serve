@@ -15,7 +15,7 @@ const Header = () => {
                 <Link href="https://my.stclaircollege.ca/sites/student/Pages/Home.aspx" target="_blank">
                     <p>St. Claire</p>
                 </Link>
-                <Link href="#" className="">Contact</Link>
+                <Link href="#" className="">About</Link>
             </div>
         </nav>
     </>

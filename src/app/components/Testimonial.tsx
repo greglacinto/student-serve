@@ -2,10 +2,10 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div>
+    <div className='flex justify-center'>
         <iframe 
-            width="560" 
-            height="315" 
+            width="400" 
+            height="300" 
             src="https://www.youtube.com/embed/WzJ7udmZ8SE?si=-DL0UMyrgzUzNJgR" 
             title="YouTube video player" 
             // frameborder="0" 

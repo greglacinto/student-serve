@@ -87,8 +87,8 @@ export default function Home() {
            <Header />
 
             {/* Main Content */}
-            <div className="flex md:flex-row gap-3 flex-col mx-3 py-8 mt-4">
-                <div className="container md:w-4/6 mx-10 mx-auto bg-white rounded-lg shadow-lg p-8">
+            <div className="flex md:flex-row gap-3 flex-col py-8 mt-4 justify-center">
+                <div className="container md:w-3/6 bg-white rounded-lg shadow-lg p-3">
                     {/* Form */}
                     <form>
                         {/* Progress Bar */}
@@ -140,7 +140,7 @@ export default function Home() {
                                 <div className="flex">
                                     <button
                                         type="submit"
-                                        className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+                                        className="md:mt-16 my-4 bg-blue-500 w-3/6 text-white px-4 py-2 rounded-lg mx-auto"
                                         onClick={handleDone}
                                     >
                                         Done
@@ -149,25 +149,18 @@ export default function Home() {
                             </div>
                         )}
 
-                        {/* {currentStep === 3 && (
-                            <div>
-                                <h2 className="text-2xl font-bold mb-4">Step 3: Confirm Booking</h2>
-                                <CalendlyWidget />
-                                <div className="flex">
-                                    <button
-                                        type="submit"
-                                        className="bg-blue-500 text-white px-4 py-2 rounded-lg"
-                                        onClick={handleDone}
-                                    >
-                                        Done
-                                    </button>
-                                </div>
-                            </div>
-                        )} */}
                     </form>
                 </div>
 
-                <Testimonial />
+                <div className="border-l-2 border-gray my-0 mx-2">
+
+                </div>
+                
+                <div className="container md:w-2/6 bg-white rounded-lg shadow-lg p-3 border-2">
+                    <h2 className="text-2xl font-bold mb-8">How to access your student card</h2>
+                    <Testimonial/>
+                </div>
+                
             </div>
 
             
